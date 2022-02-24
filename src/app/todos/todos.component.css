@@ -13,4 +13,28 @@
 
  .container{
      max-width: 800px;
+     margin-left: 530px;
+ }
+ .add-todo-box{
+     
+     text-align: center;
+     justify-content: center;
+     border-radius: 4px;
+    margin-top: -55px;
+    background: white;
+    box-shadow: 0 4px 12px;
+ }
+ .field {
+     display: flex;
+   text-align: center;
+   justify-content: center;
+   
+ }
+ .button{
+    margin-left: 10px;
+    /* color: blue; */
+    background: hotpink;
+ }
+ .input{
+     width: 300px;
  }
