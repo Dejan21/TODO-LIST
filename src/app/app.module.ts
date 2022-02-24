@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RemoveComponent } from './remove/remove.component';
 import { EditComponent } from './edit/edit.component';
+import { TodosComponent } from './todos/todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RemoveComponent,
-    EditComponent
+    EditComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
