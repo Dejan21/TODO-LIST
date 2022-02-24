@@ -1,3 +1,16 @@
 .heading-section{
-    background: lightseagreen
-}
+    background: linear-gradient(to right, rgb(2,228,171), rgb(74,215, 240));
+    padding:80px;
+
+       
+  }
+  
+  h1.title{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .container{
+     max-width: 800px;
+ }
