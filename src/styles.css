@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bulma/bulma.sass';
 
-.alt-gradient-button{
+.alt-gradient-button {
     background: linear-gradient(to right, rgb(236,72,140), rgb(240 54 82));
     display: flex;
     align-items: center;
@@ -11,4 +11,17 @@
     font-weight: 600;
     height: 25px;
     border-radius: 4px;
+    opacity: 0.9;
+    
+}
+  i.material-icons{
+   margin-right: 3px;
+   margin-left: -3px;
+  }
+  .check-box{
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.todo-text{
+    margin-left: 15px;
 }
