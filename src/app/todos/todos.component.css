@@ -52,3 +52,6 @@
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 };
+.todo-item{
+    border-bottom: 2px solid;
+}
