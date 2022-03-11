@@ -16,7 +16,8 @@
      margin-left: 530px;
  }
  .add-todo-box{
-     
+     margin-right: 160px;
+     margin-left: -160px;
      text-align: center;
      justify-content: center;
      border-radius: 4px;

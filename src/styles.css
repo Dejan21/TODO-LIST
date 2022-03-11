@@ -11,7 +11,7 @@
     font-weight: 600;
     height: 25px;
     border-radius: 4px;
-    opacity: 0.9;
+    opacity: 8px;
     
 }
   i.material-icons{
@@ -19,9 +19,22 @@
    margin-left: -3px;
   }
   .check-box{
-    margin-top: 22px;
+    margin-top: 40px;
     margin-left: 15px;
+    border-radius: 50%;
 }
 .todo-text{
-    margin-left: 15px;
+    margin-left: 35px;
+    margin-top: -22px;
+}
+.checkbox{
+    cursor: pointer; 
+    position: absolute; 
+    width: 20px;
+     height: 20px; 
+     top: 312px; 
+     border-radius: 10px;
+     margin: 0 -8px;
+     opacity: 3px;
+     background: #eee;
 }
