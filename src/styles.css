@@ -23,16 +23,13 @@
     margin-left: 15px;
     border-radius: 50%;
 }
-.todo-text{
-    margin-top: -22px;
-    width: 500px;
-}
+
 .checkbox{
     cursor: pointer; 
     position: absolute; 
     width: 20px;
      height: 20px; 
-     top: 312px; 
+     top: 359px; 
      border-radius: 10px;
      margin: 0 -48px;
      opacity: 3px;
@@ -43,7 +40,7 @@
     position: absolute; 
     width: 20px;
      height: 20px; 
-     top: 402px; 
+     top: 482px; 
      border-radius: 10px;
      margin: 0 -48px;
      opacity: 3px;
@@ -51,4 +48,17 @@
 };
 .todo-item{  
     border-bottom: 1px solid;
+    cursor: pointer;
 }
+.todo-text{
+    border-bottom: 2px solid #f2f3f5;
+    display: flex;
+    padding: 20px 15px;
+    cursor: pointer;
+    margin-top: -22px;
+    width: 500px;
+}
+  .todo-controls-box{
+    display: flex;
+    margin: -25px 480px;
+};
