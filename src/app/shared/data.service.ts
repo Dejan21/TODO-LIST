@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Todo } from './todo.module';
 
 @Injectable({
   providedIn: 'root'
@@ -6,7 +7,23 @@ import { Injectable } from '@angular/core';
 export class DataService {
 
 
-  todos:any[] 
+  todos: Todo[] = []; 
 
-  constructor() { }
+  constructor() { } 
+
+  getAllTodos() {
+    return this.todos
+  }
+
+  addTodo(todo: Todo) {
+    this.todos.push(todo)
+  }
+
+  updateTodo(index: number, updatedTodo: Todo){
+   this.todos[index] = updatedTodo
+  }
+
+  deleteTodo(index: number) {
+    this.todos.splice(index, 1)
+  }
 }
