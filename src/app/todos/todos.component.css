@@ -42,7 +42,10 @@
     font-weight: normal;
     font-style: normal;
     font-size: 17px;
-  
-};
+  background: #eee;
+  border: none;
+  margin: 1px;
+  cursor: pointer;
+}
 
  
