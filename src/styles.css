@@ -17,45 +17,18 @@
   i.material-icons{
    margin-right: 3px;
    margin-left: -3px;
-  }
-  .check-box{
-    margin-top: 40px;
-    margin-left: 15px;
-    border-radius: 50%;
-}
+  };
+  
 
-.checkbox{
-    cursor: pointer; 
-    position: absolute; 
-    width: 20px;
-     height: 20px; 
-     top: 359px; 
-     border-radius: 10px;
-     margin: 0 -48px;
-     opacity: 3px;
-     background: #eee;
-}
-.checkbox1{
-    cursor: pointer; 
-    position: absolute; 
-    width: 20px;
-     height: 20px; 
-     top: 482px; 
-     border-radius: 10px;
-     margin: 0 -48px;
-     opacity: 3px;
-     background: #eee;
-};
 .todo-item{  
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     cursor: pointer;
 }
 .todo-text{
     border-bottom: 2px solid #f2f3f5;
     display: flex;
-    padding: 20px 15px;
+    padding: 38px 16px;
     cursor: pointer;
-    margin-top: -22px;
     width: 500px;
 }
   .todo-controls-box{

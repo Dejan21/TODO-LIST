@@ -27,25 +27,24 @@
  }
  .field {
      display: flex;
-   text-align: center;
+   text-align: center;;
    justify-content: center;
-   
  }
  
  .input{
      width: 300px;
  }
+ .check-box{  
+ position: absolute;
+ margin: 22px -40px;
+}
 
 
 .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 17px;
-  background: #eee;
+      font-weight: normal;
   border: none;
-  margin: 1px;
-  cursor: pointer;
-}
+  margin: 0 2px
+ 
+};
 
  

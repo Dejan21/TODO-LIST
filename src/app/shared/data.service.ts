@@ -7,7 +7,10 @@ import { Todo } from './todo.module';
 export class DataService {
 
 
-  todos: Todo[] = []; 
+  todos: Todo[] = [
+   new Todo('this is a test'),
+   new Todo('Lorem ipsum dadadadaeeesefsf  afafa fa f afaf')
+  ]; 
 
   constructor() { } 
 
