@@ -35,3 +35,6 @@
     display: flex;
     margin: -25px 480px;
 };
+.todo-control-button{
+    background: green;
+}

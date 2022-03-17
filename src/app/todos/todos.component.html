@@ -31,9 +31,9 @@
   <div class="container">
 
     <div class="todos-list">
-       <div class="todo-item completed" *ngFor="let todo of todos">
+       <div class="todo-item" *ngFor="let todo of todos">
          <div class="todo-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae aspernatur harum accusantium saepe sint, architecto reiciendis, ex tempora quam voluptatem, perferendis quibusdam necessitatibus? Quis nemo dolores eius iure sapiente?
+               {{todo.text}}
           <div class="check-box">
             <input type="checkbox" >
           </div>
@@ -43,7 +43,7 @@
             <button class="material-icons">edit</button>
           </div>
 
-          <div class="todo-control-button is-danger">
+          <div class="todo-control-button ">
             <button class="material-icons">delete</button>
           </div>
         </div>        

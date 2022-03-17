@@ -36,15 +36,15 @@
  }
  .check-box{  
  position: absolute;
- margin: 22px -40px;
+ margin: 10px -40px;
 }
 
 
 .material-icons {
-      font-weight: normal;
   border: none;
-  margin: 0 2px
- 
+  margin: 0 2px;
+ background: none;
+ font-size: medium;
 };
 
  
