@@ -19,9 +19,12 @@ export class TodosComponent implements OnInit {
   }
 
   onFormSubmit(form:NgForm){
+    if(form.invalid) return alert('Form is invalid')
     console.log('Form Submited');
     console.log(form)
 
     this.dataService.addTodo(new Todo( form.value.text))
+
+    form.reset()
   }
 }
