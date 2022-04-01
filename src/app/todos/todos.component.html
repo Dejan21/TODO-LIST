@@ -32,7 +32,11 @@
   <div class="container">
 
     <div class="todos-list">
-    <app-todo-item *ngFor="let todo of todos" [todo]="todo"   (todoClicked)="onTodoClicked()"></app-todo-item>      
+    <app-todo-item
+     *ngFor="let todo of todos" 
+     [todo]="todo"  
+      (todoClicked)="toggleCompleted(todo)">
+    </app-todo-item>      
   
     </div>
   </div>
