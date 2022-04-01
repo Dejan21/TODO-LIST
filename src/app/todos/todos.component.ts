@@ -27,4 +27,8 @@ export class TodosComponent implements OnInit {
 
     form.reset()
   }
+
+    onTodoClicked(){
+      alert("Todo was clicked. This code is being exuceted in TODOS component")
+    }
 }
