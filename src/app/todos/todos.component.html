@@ -32,26 +32,8 @@
   <div class="container">
 
     <div class="todos-list">
-       <div class="todo-item" *ngFor="let todo of todos">
-         <div class="todo-text">
-               {{todo.text}}
-          <div class="check-box">
-            <input type="checkbox" >
-          </div>
-         </div>
-         <div class="todo-controls-box">
-          <div class="todo-control-button">
-            <button class="material-icons">edit</button>
-          </div>
-
-          <div class="todo-control-button ">
-            <button class="material-icons">delete</button>
-          </div>
-        </div>        
-       </div>
-
-      
-
+    <app-todo-item *ngFor="let todo of todos"></app-todo-item>      
+  
     </div>
   </div>
 </section>
