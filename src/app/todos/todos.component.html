@@ -35,8 +35,9 @@
     <app-todo-item
      *ngFor="let todo of todos" 
      [todo]="todo"  
-      (todoClicked)="toggleCompleted(todo)">
-    </app-todo-item>      
+      (todoClicked)="toggleCompleted(todo)"
+      (editClicked)="editTodo(todo)"
+      ></app-todo-item>      
   
     </div>
   </div>
